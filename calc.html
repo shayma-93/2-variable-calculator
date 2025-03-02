@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="calc.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/58cd77cc62.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc-header">
+            <h1>My Calculator</h1>
+       </div>
+       <div class="calc-body">
+
+        <input id="val1" type="number" placeholder="first value">
+        <input id="op" type="text" placeholder="*,/,+,-" onmouseleave="test()">
+        <input id="val2" type="number" placeholder="second value">
+        <button id="resbtn" class="btn" onclick="calculate()">=</button>
+        <div id="result-container">
+            <p id="result">Result </p>
+          </div>
+          
+
+    </div>
+  
+
+    <script src="./calc.js"></script>
+
+</body>
+</html>

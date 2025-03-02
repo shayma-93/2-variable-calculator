@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bangers&family=Caveat+Brush&family=Chicle&family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Kaushan+Script&family=Lobster&family=Pacifico&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+    color: #572c2c;
+    text-decoration: none;
+    font-family: "Akaya Kanadaka", serif; 
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 34px;
+}
+input{
+    color: #030303;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    background-color:#fff;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px 0;
+}
+#result-container {
+  padding: 20px;
+  border: 2px solid #000000;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+#result p {
+  color: #000;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#result p{
+
+  color: #000;
+  text-decoration: none;
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  background-color: #7d8fc2;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 15px;
+ color: #020202;
+ cursor: pointer;
+}
+body {
+  background: linear-gradient(90deg, #e2ca96, #f5ecde);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin-top: 30px;;
+  margin-bottom: 30px;;
+  background: linear-gradient(90deg, #d2f0fc, #c8ecfa);
+  padding: 25px;
+  border-radius: 25px;
+}
+.calc-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.calc-body {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: #000;
+  border-radius: 30px;
+  padding-left: 20px;
+}
